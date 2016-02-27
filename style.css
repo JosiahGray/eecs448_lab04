@@ -1,1 +1,40 @@
- 
+body
+{
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQTUjTxyl2lz09FMM5k1Jx_iqk53pkfI0L-IL_yUhThoMDW-fBX");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+h1
+{
+  font-family: sans-serif;
+}
+
+p
+{
+  font-family: serif;
+  font-size: 16pt;
+}
+
+form
+{
+  font-size: 14pt;
+}
+
+table, th, td
+{
+  border: 1px solid black;
+  font-size: 14pt;
+}
+
+th
+{
+  background-color: rgb(102, 204, 255);
+  text-align: center;
+}
+
+td
+{
+  background-color: rgb(255, 102, 102);
+  text-align: center;
+}

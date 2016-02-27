@@ -1,1 +1,36 @@
- 
+<html>
+<head>
+  <title> Web Store </title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" src="formChecker.js"></script>
+</head>
+
+<body>
+  <h1> Pokemart Online </h1>
+
+  <form onsubmit="return checkForm()" action="customerBackend.php" method="post">
+    Username: <input type="text" name="user" id="user"> <br>
+    Password: <input type="text" name="password" id="password"> <br>
+    <br>
+
+    Shipping options: <br>
+    <input type="radio" name="shipping" id="shipping" value="sevenDay" checked> Free 7 day <br>
+    <input type="radio" name="shipping" id="shipping" value="threeDay"> $5.00 three day <br>
+    <input type="radio" name="shipping" id="shipping" value="overnight"> $50.00 overnight <br>
+    <br>
+
+    Pokeball ($200) <br>
+    Quantity: <input type="text" name="quantity1" id="quantity1"> <br>
+    <br>
+    Hyper Potion ($1200) <br>
+    Quantity: <input type="text" name="quantity2" id="quantity2"> <br>
+    <br>
+    Repel ($350) <br>
+    Quantity: <input type="text" name="quantity3" id="quantity3"> <br>
+    <br>
+
+    <input type="reset" value="Reset"> <br><br>
+    <input type="submit" value="Confirm Purchase">
+  </form>
+</body>
+</html>
