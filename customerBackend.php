@@ -1,6 +1,6 @@
 <?php
 echo "<link rel='stylesheet' type='text/css' href='style.css' />";
-echo "<h1> Recipt </h1>";
+echo "<h1> Receipt </h1>";
 
 $user = $_POST["user"];
 $password = $_POST["password"];
